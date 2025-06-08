@@ -1,43 +1,10 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <title>Beli Berry Coin</title>
   <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
-  <style>
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      padding: 2em;
-      text-align: center;
-    }
-
-    button {
-      background-color: #d1a3f8;
-      color: #000;
-      padding: 1em 2em;
-      margin: 1em;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #e0c3fc;
-    }
-
-    #status {
-      margin-top: 1em;
-      font-weight: bold;
-    }
-
-    #txLink {
-      margin-top: 0.5em;
-      color: #9cf;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <h1>Beli Berry Coin</h1>
@@ -100,3 +67,4 @@
   </script>
 </body>
 </html>
+
